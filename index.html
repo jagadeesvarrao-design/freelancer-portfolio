@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of an AI, Python Developer and Data Analyst specializing in modern intelligent applications.">
+    <meta name="author" content="Jagadeeswara Rao">
+    
+    <!-- Open Graph / LinkedIn / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://my-portfolio-five-mu-77.vercel.app/">
+    <meta property="og:title" content="My Portfolio | AI & Data Specialist">
+    <meta property="og:description" content="Portfolio of an AI, Python Developer and Data Analyst specializing in modern intelligent applications.">
+    <meta property="og:image" content="https://my-portfolio-five-mu-77.vercel.app/assets/og_preview.png">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://my-portfolio-five-mu-77.vercel.app/">
+    <meta property="twitter:title" content="My Portfolio | AI & Data Specialist">
+    <meta property="twitter:description" content="Portfolio of an AI, Python Developer and Data Analyst specializing in modern intelligent applications.">
+    <meta property="twitter:image" content="https://my-portfolio-five-mu-77.vercel.app/assets/og_preview.png">
+
+    <title>My Portfolio | Freelance Tech Solutions</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Custom Trailing Cursor Follower -->
+    <div class="custom-cursor" id="custom-cursor"></div>
+    <div class="custom-cursor-follower" id="custom-cursor-follower"></div>
+
+    <!-- Scroll Progress Indicator -->
+    <div class="scroll-progress-container">
+        <div class="scroll-progress-bar" id="scroll-progress"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">Portfolio<span>.</span></a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#contact" class="btn btn-primary btn-sm" style="padding: 0.5rem 1.2rem; border-radius: 6px; box-shadow: none;"><i class="fa-solid fa-calendar-check"></i> Hire Me</a></li>
+            </ul>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero section-padding">
+        <!-- Particles Background -->
+        <div id="particles-js"></div>
+        <div class="container">
+            <div class="hero-grid">
+                <div class="hero-content">
+                    <h2 class="greeting fade-up">Hello, I'm</h2>
+                    <h1 class="name fade-up delay-1">Freelance <br>
+                        <span class="gradient-text" id="typewriter-role">Tech Solutions Architect</span><span class="typing-cursor">|</span>
+                    </h1>
+                    <p class="hero-description fade-up delay-2">
+                        Delivering custom App Development, Full Stack Solutions, CRM Management, and UI/UX Design for businesses. Let's build your next big project together.
+                    </p>
+                    <div class="hero-buttons fade-up delay-3">
+                        <a href="#contact" class="btn btn-primary">Book a Consultation</a>
+                        <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                    </div>
+                </div>
+                
+                <!-- Rotating Glowing SVG Avatar Showcase -->
+                <div class="avatar-wrapper fade-up delay-2">
+                    <div class="avatar-glow"></div>
+                    <div class="avatar-frame"></div>
+                    <div class="avatar-inner-frame"></div>
+                    <div class="avatar-img-container">
+                        <svg class="avatar-svg" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <defs>
+                                <linearGradient id="svg-accent-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" stop-color="#3b82f6" />
+                                    <stop offset="50%" stop-color="#8b5cf6" />
+                                    <stop offset="100%" stop-color="#d946ef" />
+                                </linearGradient>
+                            </defs>
+                            <!-- Visual futuristic brain/layers visual representating AI/Data -->
+                            <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" stroke="url(#svg-accent-gradient)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section-padding">
+        <div class="container">
+            <h2 class="section-title fade-up">About <span class="gradient-text">Me</span></h2>
+            
+            <div class="about-grid">
+                <!-- Fresher Quick Facts Card Left -->
+                <div class="about-stats-card fade-up">
+                    <div class="about-stat-item">
+                        <div class="about-stat-icon"><i class="fa-solid fa-rocket"></i></div>
+                        <div class="about-stat-info">
+                            <h4>Focus</h4>
+                            <p>Freelance & Client Success</p>
+                        </div>
+                    </div>
+                    <div class="about-stat-item">
+                        <div class="about-stat-icon"><i class="fa-solid fa-location-dot"></i></div>
+                        <div class="about-stat-info">
+                            <h4>Location</h4>
+                            <p>Remote / Visakhapatnam, India</p>
+                        </div>
+                    </div>
+                    <div class="about-stat-item">
+                        <div class="about-stat-icon"><i class="fa-solid fa-briefcase"></i></div>
+                        <div class="about-stat-info">
+                            <h4>Availability</h4>
+                            <p>Available for Freelance Projects</p>
+                        </div>
+                    </div>
+                    <div class="about-stat-item">
+                        <div class="about-stat-icon"><i class="fa-solid fa-code"></i></div>
+                        <div class="about-stat-info">
+                            <h4>Services</h4>
+                            <p>Apps, Web, CRM, UI/UX</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Bio Text Right -->
+                <div class="about-text fade-up delay-1">
+                    <p>I am a freelance tech professional dedicated to helping businesses scale and succeed through custom software solutions. My expertise spans App Development, Full Stack Web Applications, CRM Management, and UI/UX Design.</p>
+                    <p>Whether you need a sleek mobile app, a robust backend system, or an optimized CRM workflow, I bring a detail-oriented approach to deliver high-quality, production-ready results. I believe in writing clean code and designing intuitive user experiences.</p>
+                    <p>As a freelancer, I partner directly with you to understand your unique challenges and turn your ideas into functional, beautifully crafted digital products.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="skills section-padding">
+        <div class="container">
+            <h2 class="section-title fade-up">My <span class="gradient-text">Services</span></h2>
+            
+            <div class="skills-grid">
+                <!-- Service 1 -->
+                <div class="skill-card skill-python fade-up" data-tilt data-tilt-max="15" data-tilt-speed="400" data-tilt-glare data-tilt-max-glare="0.2">
+                    <div class="skill-icon-box"><i class="fa-solid fa-mobile-screen-button"></i></div>
+                    <h3>App Development</h3>
+                    <p>End-to-end mobile application development for Android and iOS platforms to bring your ideas to users' pockets.</p>
+                    <div class="skill-tags">
+                        <span>Android</span>
+                        <span>iOS</span>
+                        <span>Cross-Platform</span>
+                    </div>
+                </div>
+
+                <!-- Service 2 -->
+                <div class="skill-card skill-ai fade-up delay-1" data-tilt data-tilt-max="15" data-tilt-speed="400" data-tilt-glare data-tilt-max-glare="0.2">
+                    <div class="skill-icon-box"><i class="fa-solid fa-code"></i></div>
+                    <h3>Software / Full Stack Dev</h3>
+                    <p>Building scalable, performant, and secure web applications with modern frontend and backend technologies.</p>
+                    <div class="skill-tags">
+                        <span>Frontend</span>
+                        <span>Backend</span>
+                        <span>APIs</span>
+                    </div>
+                </div>
+
+                <!-- Service 3 -->
+                <div class="skill-card skill-data fade-up delay-2" data-tilt data-tilt-max="15" data-tilt-speed="400" data-tilt-glare data-tilt-max-glare="0.2">
+                    <div class="skill-icon-box"><i class="fa-solid fa-users-gear"></i></div>
+                    <h3>CRM Management</h3>
+                    <p>Setup, optimization, and automation of CRM workflows to streamline your sales and customer relations.</p>
+                    <div class="skill-tags">
+                        <span>HubSpot</span>
+                        <span>Automation</span>
+                        <span>Workflows</span>
+                    </div>
+                </div>
+
+                <!-- Service 4 -->
+                <div class="skill-card skill-tools fade-up delay-3" data-tilt data-tilt-max="15" data-tilt-speed="400" data-tilt-glare data-tilt-max-glare="0.2">
+                    <div class="skill-icon-box"><i class="fa-solid fa-pen-nib"></i></div>
+                    <h3>UI/UX Design</h3>
+                    <p>Crafting intuitive and visually stunning user interfaces and experiences tailored to your brand identity.</p>
+                    <div class="skill-tags">
+                        <span>Figma</span>
+                        <span>Prototyping</span>
+                        <span>User Testing</span>
+                    </div>
+                </div>
+
+                <!-- Service 5 -->
+                <div class="skill-card skill-python fade-up delay-4" data-tilt data-tilt-max="15" data-tilt-speed="400" data-tilt-glare data-tilt-max-glare="0.2">
+                    <div class="skill-icon-box"><i class="fa-solid fa-file-signature"></i></div>
+                    <h3>Resume Writing</h3>
+                    <p>Professional resume writing and optimization services to help candidates stand out and land their dream jobs.</p>
+                    <div class="skill-tags">
+                        <span>Formatting</span>
+                        <span>ATS Optimization</span>
+                        <span>Cover Letters</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects section-padding">
+        <div class="container">
+            <h2 class="section-title fade-up">Client <span class="gradient-text">Case Studies</span></h2>
+            
+            <!-- Project Filters -->
+            <div class="filter-container fade-up">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="ai-agents">AI & Agents</button>
+                <button class="filter-btn" data-filter="web-apps">Web Apps</button>
+                <button class="filter-btn" data-filter="data">Data & DB</button>
+            </div>
+
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div data-tilt data-tilt-max="10" data-tilt-speed="400" data-tilt-glare data-tilt-max-glare="0.2" class="project-card fade-up" data-category="ai-agents">
+                    <div class="project-image-wrapper">
+                        <img src="assets/prompt_labs.png" alt="Prompt Labs UI" class="project-img">
+                    </div>
+                    <div class="project-content">
+                        <h3>Prompt Labs</h3>
+                        <p>An innovative web application focusing on prompt engineering and testing for language models.</p>
+                        <div class="tech-stack">
+                            <span>Prompt Engineering</span>
+                            <span>Web App</span>
+                        </div>
+                        <div style="margin-top: 1.5rem; display: flex; gap: 1.5rem;">
+                            <a href="https://promptlabs-j8wm.vercel.app" class="project-link" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 2 -->
+                <div data-tilt data-tilt-max="10" data-tilt-speed="400" data-tilt-glare data-tilt-max-glare="0.2" class="project-card fade-up delay-1" data-category="web-apps">
+                    <div class="project-image-wrapper">
+                        <img src="assets/resume_builder.png" alt="Resume Builder UI" class="project-img">
+                    </div>
+                    <div class="project-content">
+                        <h3>Resume Builder</h3>
+                        <p>A dynamic tool designed to help users create professional, perfectly formatted resumes quickly and easily.</p>
+                        <div class="tech-stack">
+                            <span>Web App</span>
+                            <span>Frontend</span>
+                        </div>
+                        <div style="margin-top: 1.5rem; display: flex; gap: 1.5rem;">
+                            <a href="https://resume-builder-swart-sigma-93.vercel.app" class="project-link" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 3 -->
+                <div data-tilt data-tilt-max="10" data-tilt-speed="400" data-tilt-glare data-tilt-max-glare="0.2" class="project-card fade-up delay-2" data-category="data">
+                    <div class="project-image-wrapper">
+                        <img src="assets/text_to_sql.png" alt="Text to SQL UI" class="project-img">
+                    </div>
+                    <div class="project-content">
+                        <h3>Text-to-SQL</h3>
+                        <p>A machine learning-driven tool that translates natural language queries directly into executable SQL statements.</p>
+                        <div class="tech-stack">
+                            <span>Python</span>
+                            <span>SQL</span>
+                            <span>NLP</span>
+                        </div>
+                        <div style="margin-top: 1.5rem; display: flex; gap: 1.5rem;">
+                            <a href="https://github.com/jagadeesvarrao-design/QueryAI-TextToSQL" class="project-link" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i> GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 4 -->
+                <div data-tilt data-tilt-max="10" data-tilt-speed="400" data-tilt-glare data-tilt-max-glare="0.2" class="project-card fade-up delay-3" data-category="ai-agents">
+                    <div class="project-image-wrapper">
+                        <img src="assets/jarvis_ai.png" alt="Jarvis UI" class="project-img">
+                    </div>
+                    <div class="project-content">
+                        <h3>Jarvis Virtual Assistant</h3>
+                        <p>An intelligent, voice-controlled AI assistant built with Python. Automates daily tasks, answers queries, and interacts with various APIs.</p>
+                        <div class="tech-stack">
+                            <span>Python</span>
+                            <span>Prompt Engineering</span>
+                            <span>APIs</span>
+                        </div>
+                        <div style="margin-top: 1.5rem; display: flex; gap: 1.5rem;">
+                            <a href="https://github.com/jagadeesvarrao-design/JARVIS" class="project-link" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i> GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 5 -->
+                <div data-tilt data-tilt-max="10" data-tilt-speed="400" data-tilt-glare data-tilt-max-glare="0.2" class="project-card fade-up delay-4" data-category="ai-agents">
+                    <div class="project-image-wrapper">
+                        <img src="assets/pdf_answering_bot.png" alt="PDF Answering Bot UI" class="project-img">
+                    </div>
+                    <div class="project-content">
+                        <h3>PDF Answering Bot</h3>
+                        <p>An advanced AI tool that intelligently analyzes PDF documents and answers complex user questions based on the content.</p>
+                        <div class="tech-stack">
+                            <span>Python</span>
+                            <span>LLM</span>
+                            <span>PDF parsing</span>
+                        </div>
+                        <div style="margin-top: 1.5rem; display: flex; gap: 1.5rem;">
+                            <a href="https://pdf-analizing-and-answering-bot-1.onrender.com" class="project-link" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 6 -->
+                <div data-tilt data-tilt-max="10" data-tilt-speed="400" data-tilt-glare data-tilt-max-glare="0.2" class="project-card fade-up delay-5" data-category="ai-agents">
+                    <div class="project-image-wrapper">
+                        <img src="assets/ai_job_search.png" alt="AI Job Search Agent UI" class="project-img">
+                    </div>
+                    <div class="project-content">
+                        <h3>AI Job Search Agent</h3>
+                        <p>An autonomous, end-to-end AI agent pipeline designed to automate the grueling process of finding, filtering, applying, and preparing for jobs. Built with 5 specialized AI agents.</p>
+                        <div class="tech-stack">
+                            <span>Next.js</span>
+                            <span>Google Gemini</span>
+                            <span>AI Agents</span>
+                        </div>
+                        <div style="margin-top: 1.5rem; display: flex; gap: 1.5rem;">
+                            <a href="https://ai-job-search-agent-chi.vercel.app/" class="project-link" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo</a>
+                            <a href="https://github.com/jagadeesvarrao-design/ai-job-search-agent" class="project-link" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i> GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 7 -->
+                <div data-tilt data-tilt-max="10" data-tilt-speed="400" data-tilt-glare data-tilt-max-glare="0.2" class="project-card fade-up delay-6" data-category="ai-agents">
+                    <div class="project-image-wrapper">
+                        <img src="assets/crm_project.png" alt="AI Sales Operations Agent UI" class="project-img">
+                    </div>
+                    <div class="project-content">
+                        <h3>AI Sales Operations Agent</h3>
+                        <p>An enterprise-grade, autonomous inbound lead processing engine. It intercepts leads, performs real-time web scraping, prevents fraud via identity validation, and uses Gemini to score leads before pushing them to HubSpot CRM.</p>
+                        <div class="tech-stack">
+                            <span>Python</span>
+                            <span>Flask</span>
+                            <span>Gemini</span>
+                            <span>HubSpot</span>
+                        </div>
+                        <div style="margin-top: 1.5rem; display: flex; gap: 1.5rem;">
+                            <a href="https://crm-project-8ooz.onrender.com" class="project-link" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 8 -->
+                <div data-tilt data-tilt-max="10" data-tilt-speed="400" data-tilt-glare data-tilt-max-glare="0.2" class="project-card fade-up delay-7" data-category="ai-agents">
+                    <div class="project-image-wrapper">
+                        <img src="assets/multi_agent_workforce.png" alt="Multi-Agent Software Factory UI" class="project-img">
+                    </div>
+                    <div class="project-content">
+                        <h3>Multi-Agent Software Factory</h3>
+                        <p>A state-of-the-art Multi-Agent Orchestration System built with CrewAI. A specialized crew of AI agents (Product Manager, Engineer, QA) collaborate, research, and write production-ready software autonomously.</p>
+                        <div class="tech-stack">
+                            <span>Python</span>
+                            <span>CrewAI</span>
+                            <span>Gemini</span>
+                            <span>AI Agents</span>
+                        </div>
+                        <div style="margin-top: 1.5rem; display: flex; gap: 1.5rem;">
+                            <a href="https://github.com/jagadeesvarrao-design/multi_agent_workforce" class="project-link" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i> GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 9 -->
+                <div data-tilt data-tilt-max="10" data-tilt-speed="400" data-tilt-glare data-tilt-max-glare="0.2" class="project-card fade-up delay-8" data-category="web-apps">
+                    <div class="project-image-wrapper">
+                        <img src="assets/learning_website.png" alt="Learning Website UI" class="project-img">
+                    </div>
+                    <div class="project-content">
+                        <h3>Learning Website</h3>
+                        <p>An interactive educational platform offering modern learning experiences.</p>
+                        <div class="tech-stack">
+                            <span>Web App</span>
+                            <span>Frontend</span>
+                        </div>
+                        <div style="margin-top: 1.5rem; display: flex; gap: 1.5rem;">
+                            <a href="https://learning-website-htv2.onrender.com" class="project-link" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo</a>
+                            <a href="https://github.com/jagadeesvarrao-design/learning-website-" class="project-link" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i> GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education & Certifications Section -->
+    <section id="education" class="education section-padding">
+        <div class="container">
+            <h2 class="section-title fade-up">My <span class="gradient-text">Education</span></h2>
+            
+            <div class="edu-cert-grid">
+                <!-- Timeline Left -->
+                <div class="timeline fade-up">
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="glass-card timeline-content">
+                            <p class="timeline-date"><i class="fa-solid fa-calendar-days"></i> Graduated in 2026</p>
+                            <h3>B-Tech in Computer Science and Engineering</h3>
+                            <h4>Miracle Educational Society Group of Institutions</h4>
+                            <p>CGPA: 7.54</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="glass-card timeline-content">
+                            <p class="timeline-date"><i class="fa-solid fa-calendar-days"></i> Completed in 2022</p>
+                            <h3>Intermediate</h3>
+                            <h4>Visaka Defence Academy</h4>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="glass-card timeline-content">
+                            <p class="timeline-date"><i class="fa-solid fa-calendar-days"></i> Completed in 2020</p>
+                            <h3>Tenth Grade (10th)</h3>
+                            <h4>Sri Swamy Vivekanandha High School</h4>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Certifications list Right -->
+                <div class="certifications-section fade-up delay-1">
+                    <h3>Certifications & <span class="gradient-text">Credentials</span></h3>
+                    <div class="cert-list">
+                        <div class="cert-card">
+                            <div class="cert-icon"><i class="fa-brands fa-python"></i></div>
+                            <div class="cert-info">
+                                <h4>Python Programming Essentials</h4>
+                                <p>Core logic, data manipulation, and software scripting workflows.</p>
+                            </div>
+                        </div>
+                        <div class="cert-card">
+                            <div class="cert-icon"><i class="fa-solid fa-database"></i></div>
+                            <div class="cert-info">
+                                <h4>SQL & Relational Databases</h4>
+                                <p>Advanced joins, queries, optimizations, and schema constructs.</p>
+                            </div>
+                        </div>
+                        <div class="cert-card">
+                            <div class="cert-icon"><i class="fa-solid fa-microchip"></i></div>
+                            <div class="cert-info">
+                                <h4>AI Foundations & Prompting</h4>
+                                <p>Large Language Model (LLM) structure and prompt engineering strategies.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section-padding">
+        <div class="container">
+            <h2 class="section-title fade-up">Get In <span class="gradient-text">Touch</span></h2>
+            <p class="contact-subtitle fade-up">Ready to bring your ideas to life? Book a consultation or send me a message. I'll get back to you as soon as possible!</p>
+            
+            <div class="contact-grid">
+                <!-- Contact Info -->
+                <div class="contact-info fade-up">
+                    <div class="contact-card">
+                        <i class="fa-solid fa-envelope"></i>
+                        <h4>Email Me</h4>
+                        <a href="mailto:jagadeevarrao@gmail.com">jagadeevarrao@gmail.com</a>
+                    </div>
+                    <div class="contact-card">
+                        <i class="fa-solid fa-phone"></i>
+                        <h4>Call Me</h4>
+                        <a href="tel:+918790906267">+91 8790906267</a>
+                    </div>
+                    <div class="social-links-form">
+                        <a href="https://www.linkedin.com/in/jagadeeswara-rao-peddada-652724270" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="https://github.com/jagadeesvarrao-design" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="contact-form-container fade-up delay-1">
+                    <form action="https://formspree.io/f/mzdwqjvn" method="POST" class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required placeholder="John Doe">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required placeholder="john@example.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" required placeholder="Hello, I'd like to hire you!"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-submit">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Built with ❤️. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.0/vanilla-tilt.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
